@@ -1,0 +1,713 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D606CAE72CA95E7C00236C00 /* listRank.swift in Sources */ = {isa = PBXBuildFile; fileRef = D606CAE62CA95E7C00236C00 /* listRank.swift */; };
+		D60D944F2C6E072E00F2803B /* splashScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = D60D944E2C6E072D00F2803B /* splashScreen.swift */; };
+		D60D94512C6E07D600F2803B /* Boarding.swift in Sources */ = {isa = PBXBuildFile; fileRef = D60D94502C6E07D600F2803B /* Boarding.swift */; };
+		D61C22852C635E29006CAAD0 /* skripsiApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D61C22842C635E29006CAAD0 /* skripsiApp.swift */; };
+		D61C22872C635E29006CAAD0 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D61C22862C635E29006CAAD0 /* ContentView.swift */; };
+		D61C22892C635E2B006CAAD0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D61C22882C635E2B006CAAD0 /* Assets.xcassets */; };
+		D61C228C2C635E2B006CAAD0 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D61C228B2C635E2B006CAAD0 /* Preview Assets.xcassets */; };
+		D61C22962C635E2B006CAAD0 /* skripsiTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D61C22952C635E2B006CAAD0 /* skripsiTests.swift */; };
+		D61C22A02C635E2B006CAAD0 /* skripsiUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D61C229F2C635E2B006CAAD0 /* skripsiUITests.swift */; };
+		D61C22A22C635E2B006CAAD0 /* skripsiUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D61C22A12C635E2B006CAAD0 /* skripsiUITestsLaunchTests.swift */; };
+		D63D83FF2C82AD6A00FAAF30 /* Dasboard.swift in Sources */ = {isa = PBXBuildFile; fileRef = D63D83FE2C82AD6A00FAAF30 /* Dasboard.swift */; };
+		D63D84062C82D00400FAAF30 /* UserService.swift in Sources */ = {isa = PBXBuildFile; fileRef = D63D84052C82D00400FAAF30 /* UserService.swift */; };
+		D63D84082C82D04D00FAAF30 /* RegisterViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D63D84072C82D04D00FAAF30 /* RegisterViewModel.swift */; };
+		D63D840C2C82D09900FAAF30 /* Register.swift in Sources */ = {isa = PBXBuildFile; fileRef = D63D840B2C82D09900FAAF30 /* Register.swift */; };
+		D63D840E2C82DE3800FAAF30 /* Login.swift in Sources */ = {isa = PBXBuildFile; fileRef = D63D840D2C82DE3800FAAF30 /* Login.swift */; };
+		D63D84102C82DE9100FAAF30 /* LoginViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D63D840F2C82DE9100FAAF30 /* LoginViewModel.swift */; };
+		D63D84122C82EA3D00FAAF30 /* CategoryService.swift in Sources */ = {isa = PBXBuildFile; fileRef = D63D84112C82EA3D00FAAF30 /* CategoryService.swift */; };
+		D63D84142C82EACF00FAAF30 /* CategoryViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D63D84132C82EACF00FAAF30 /* CategoryViewModel.swift */; };
+		D63D84162C82EAE300FAAF30 /* Category.swift in Sources */ = {isa = PBXBuildFile; fileRef = D63D84152C82EAE300FAAF30 /* Category.swift */; };
+		D63D841D2C82F99300FAAF30 /* LoginService.swift in Sources */ = {isa = PBXBuildFile; fileRef = D63D841C2C82F99300FAAF30 /* LoginService.swift */; };
+		D6B54FD32C86AE51007C24C3 /* SoalViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6B54FD22C86AE51007C24C3 /* SoalViewModel.swift */; };
+		D6B54FD52C86AE62007C24C3 /* SoalService.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6B54FD42C86AE62007C24C3 /* SoalService.swift */; };
+		D6B54FD92C86C2CC007C24C3 /* Soal.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6B54FD82C86C2CC007C24C3 /* Soal.swift */; };
+		D6BEDA7B2C98404100EAF57E /* RankService.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6BEDA7A2C98404100EAF57E /* RankService.swift */; };
+		D6BEDA7D2C98405100EAF57E /* RankViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6BEDA7C2C98405100EAF57E /* RankViewModel.swift */; };
+		D6BEDA7F2C9959A700EAF57E /* UserViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6BEDA7E2C9959A700EAF57E /* UserViewModel.swift */; };
+		D6BEDA812C9959BF00EAF57E /* UserDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6BEDA802C9959BF00EAF57E /* UserDetail.swift */; };
+		D6BEDA832C99733000EAF57E /* baseurl.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6BEDA822C99733000EAF57E /* baseurl.swift */; };
+		D6BEDA852C999B4600EAF57E /* FinishQuiz.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6BEDA842C999B4600EAF57E /* FinishQuiz.swift */; };
+		D6C3CF432C660A9600B2143E /* authUser.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6C3CF422C660A9600B2143E /* authUser.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D61C22922C635E2B006CAAD0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D61C22792C635E29006CAAD0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D61C22802C635E29006CAAD0;
+			remoteInfo = skripsi;
+		};
+		D61C229C2C635E2B006CAAD0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D61C22792C635E29006CAAD0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D61C22802C635E29006CAAD0;
+			remoteInfo = skripsi;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D606CAE62CA95E7C00236C00 /* listRank.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = listRank.swift; sourceTree = "<group>"; };
+		D60D944E2C6E072D00F2803B /* splashScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = splashScreen.swift; sourceTree = "<group>"; };
+		D60D94502C6E07D600F2803B /* Boarding.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Boarding.swift; sourceTree = "<group>"; };
+		D61C22812C635E29006CAAD0 /* skripsi.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = skripsi.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D61C22842C635E29006CAAD0 /* skripsiApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = skripsiApp.swift; sourceTree = "<group>"; };
+		D61C22862C635E29006CAAD0 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		D61C22882C635E2B006CAAD0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D61C228B2C635E2B006CAAD0 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		D61C22912C635E2B006CAAD0 /* skripsiTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = skripsiTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D61C22952C635E2B006CAAD0 /* skripsiTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = skripsiTests.swift; sourceTree = "<group>"; };
+		D61C229B2C635E2B006CAAD0 /* skripsiUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = skripsiUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D61C229F2C635E2B006CAAD0 /* skripsiUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = skripsiUITests.swift; sourceTree = "<group>"; };
+		D61C22A12C635E2B006CAAD0 /* skripsiUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = skripsiUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		D63D83FE2C82AD6A00FAAF30 /* Dasboard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dasboard.swift; sourceTree = "<group>"; };
+		D63D84052C82D00400FAAF30 /* UserService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserService.swift; sourceTree = "<group>"; };
+		D63D84072C82D04D00FAAF30 /* RegisterViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewModel.swift; sourceTree = "<group>"; };
+		D63D840B2C82D09900FAAF30 /* Register.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Register.swift; sourceTree = "<group>"; };
+		D63D840D2C82DE3800FAAF30 /* Login.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Login.swift; sourceTree = "<group>"; };
+		D63D840F2C82DE9100FAAF30 /* LoginViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewModel.swift; sourceTree = "<group>"; };
+		D63D84112C82EA3D00FAAF30 /* CategoryService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryService.swift; sourceTree = "<group>"; };
+		D63D84132C82EACF00FAAF30 /* CategoryViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryViewModel.swift; sourceTree = "<group>"; };
+		D63D84152C82EAE300FAAF30 /* Category.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Category.swift; sourceTree = "<group>"; };
+		D63D841C2C82F99300FAAF30 /* LoginService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginService.swift; sourceTree = "<group>"; };
+		D6B54FD22C86AE51007C24C3 /* SoalViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SoalViewModel.swift; sourceTree = "<group>"; };
+		D6B54FD42C86AE62007C24C3 /* SoalService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SoalService.swift; sourceTree = "<group>"; };
+		D6B54FD82C86C2CC007C24C3 /* Soal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Soal.swift; sourceTree = "<group>"; };
+		D6BEDA7A2C98404100EAF57E /* RankService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RankService.swift; sourceTree = "<group>"; };
+		D6BEDA7C2C98405100EAF57E /* RankViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RankViewModel.swift; sourceTree = "<group>"; };
+		D6BEDA7E2C9959A700EAF57E /* UserViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserViewModel.swift; sourceTree = "<group>"; };
+		D6BEDA802C9959BF00EAF57E /* UserDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDetail.swift; sourceTree = "<group>"; };
+		D6BEDA822C99733000EAF57E /* baseurl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = baseurl.swift; sourceTree = "<group>"; };
+		D6BEDA842C999B4600EAF57E /* FinishQuiz.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FinishQuiz.swift; sourceTree = "<group>"; };
+		D6C3CF422C660A9600B2143E /* authUser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = authUser.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D61C227E2C635E29006CAAD0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D61C228E2C635E2B006CAAD0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D61C22982C635E2B006CAAD0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D61C22782C635E29006CAAD0 = {
+			isa = PBXGroup;
+			children = (
+				D61C22832C635E29006CAAD0 /* skripsi */,
+				D61C22942C635E2B006CAAD0 /* skripsiTests */,
+				D61C229E2C635E2B006CAAD0 /* skripsiUITests */,
+				D61C22822C635E29006CAAD0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D61C22822C635E29006CAAD0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D61C22812C635E29006CAAD0 /* skripsi.app */,
+				D61C22912C635E2B006CAAD0 /* skripsiTests.xctest */,
+				D61C229B2C635E2B006CAAD0 /* skripsiUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D61C22832C635E29006CAAD0 /* skripsi */ = {
+			isa = PBXGroup;
+			children = (
+				D63D84042C82C82700FAAF30 /* ViewModels */,
+				D6C3CF412C65E54A00B2143E /* WebService */,
+				D6C3CF402C65E4C500B2143E /* View */,
+				D6C3CF3F2C65E1EE00B2143E /* Models */,
+				D61C22842C635E29006CAAD0 /* skripsiApp.swift */,
+				D61C22862C635E29006CAAD0 /* ContentView.swift */,
+				D61C22882C635E2B006CAAD0 /* Assets.xcassets */,
+				D61C228A2C635E2B006CAAD0 /* Preview Content */,
+			);
+			path = skripsi;
+			sourceTree = "<group>";
+		};
+		D61C228A2C635E2B006CAAD0 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				D61C228B2C635E2B006CAAD0 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		D61C22942C635E2B006CAAD0 /* skripsiTests */ = {
+			isa = PBXGroup;
+			children = (
+				D61C22952C635E2B006CAAD0 /* skripsiTests.swift */,
+			);
+			path = skripsiTests;
+			sourceTree = "<group>";
+		};
+		D61C229E2C635E2B006CAAD0 /* skripsiUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D61C229F2C635E2B006CAAD0 /* skripsiUITests.swift */,
+				D61C22A12C635E2B006CAAD0 /* skripsiUITestsLaunchTests.swift */,
+			);
+			path = skripsiUITests;
+			sourceTree = "<group>";
+		};
+		D63D84042C82C82700FAAF30 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				D63D84072C82D04D00FAAF30 /* RegisterViewModel.swift */,
+				D63D840F2C82DE9100FAAF30 /* LoginViewModel.swift */,
+				D63D84132C82EACF00FAAF30 /* CategoryViewModel.swift */,
+				D6B54FD22C86AE51007C24C3 /* SoalViewModel.swift */,
+				D6BEDA7C2C98405100EAF57E /* RankViewModel.swift */,
+				D6BEDA7E2C9959A700EAF57E /* UserViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		D6C3CF3F2C65E1EE00B2143E /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				D6C3CF422C660A9600B2143E /* authUser.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		D6C3CF402C65E4C500B2143E /* View */ = {
+			isa = PBXGroup;
+			children = (
+				D60D944E2C6E072D00F2803B /* splashScreen.swift */,
+				D60D94502C6E07D600F2803B /* Boarding.swift */,
+				D63D83FE2C82AD6A00FAAF30 /* Dasboard.swift */,
+				D63D840B2C82D09900FAAF30 /* Register.swift */,
+				D63D840D2C82DE3800FAAF30 /* Login.swift */,
+				D63D84152C82EAE300FAAF30 /* Category.swift */,
+				D6B54FD82C86C2CC007C24C3 /* Soal.swift */,
+				D6BEDA802C9959BF00EAF57E /* UserDetail.swift */,
+				D6BEDA842C999B4600EAF57E /* FinishQuiz.swift */,
+				D606CAE62CA95E7C00236C00 /* listRank.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		D6C3CF412C65E54A00B2143E /* WebService */ = {
+			isa = PBXGroup;
+			children = (
+				D63D84052C82D00400FAAF30 /* UserService.swift */,
+				D63D84112C82EA3D00FAAF30 /* CategoryService.swift */,
+				D63D841C2C82F99300FAAF30 /* LoginService.swift */,
+				D6B54FD42C86AE62007C24C3 /* SoalService.swift */,
+				D6BEDA7A2C98404100EAF57E /* RankService.swift */,
+				D6BEDA822C99733000EAF57E /* baseurl.swift */,
+			);
+			path = WebService;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D61C22802C635E29006CAAD0 /* skripsi */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D61C22A52C635E2B006CAAD0 /* Build configuration list for PBXNativeTarget "skripsi" */;
+			buildPhases = (
+				D61C227D2C635E29006CAAD0 /* Sources */,
+				D61C227E2C635E29006CAAD0 /* Frameworks */,
+				D61C227F2C635E29006CAAD0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = skripsi;
+			productName = skripsi;
+			productReference = D61C22812C635E29006CAAD0 /* skripsi.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D61C22902C635E2B006CAAD0 /* skripsiTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D61C22A82C635E2B006CAAD0 /* Build configuration list for PBXNativeTarget "skripsiTests" */;
+			buildPhases = (
+				D61C228D2C635E2B006CAAD0 /* Sources */,
+				D61C228E2C635E2B006CAAD0 /* Frameworks */,
+				D61C228F2C635E2B006CAAD0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D61C22932C635E2B006CAAD0 /* PBXTargetDependency */,
+			);
+			name = skripsiTests;
+			productName = skripsiTests;
+			productReference = D61C22912C635E2B006CAAD0 /* skripsiTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D61C229A2C635E2B006CAAD0 /* skripsiUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D61C22AB2C635E2B006CAAD0 /* Build configuration list for PBXNativeTarget "skripsiUITests" */;
+			buildPhases = (
+				D61C22972C635E2B006CAAD0 /* Sources */,
+				D61C22982C635E2B006CAAD0 /* Frameworks */,
+				D61C22992C635E2B006CAAD0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D61C229D2C635E2B006CAAD0 /* PBXTargetDependency */,
+			);
+			name = skripsiUITests;
+			productName = skripsiUITests;
+			productReference = D61C229B2C635E2B006CAAD0 /* skripsiUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D61C22792C635E29006CAAD0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1540;
+				LastUpgradeCheck = 1540;
+				TargetAttributes = {
+					D61C22802C635E29006CAAD0 = {
+						CreatedOnToolsVersion = 15.4;
+					};
+					D61C22902C635E2B006CAAD0 = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = D61C22802C635E29006CAAD0;
+					};
+					D61C229A2C635E2B006CAAD0 = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = D61C22802C635E29006CAAD0;
+					};
+				};
+			};
+			buildConfigurationList = D61C227C2C635E29006CAAD0 /* Build configuration list for PBXProject "skripsi" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D61C22782C635E29006CAAD0;
+			productRefGroup = D61C22822C635E29006CAAD0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D61C22802C635E29006CAAD0 /* skripsi */,
+				D61C22902C635E2B006CAAD0 /* skripsiTests */,
+				D61C229A2C635E2B006CAAD0 /* skripsiUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D61C227F2C635E29006CAAD0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D61C228C2C635E2B006CAAD0 /* Preview Assets.xcassets in Resources */,
+				D61C22892C635E2B006CAAD0 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D61C228F2C635E2B006CAAD0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D61C22992C635E2B006CAAD0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D61C227D2C635E29006CAAD0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D6BEDA832C99733000EAF57E /* baseurl.swift in Sources */,
+				D6B54FD92C86C2CC007C24C3 /* Soal.swift in Sources */,
+				D60D944F2C6E072E00F2803B /* splashScreen.swift in Sources */,
+				D6BEDA7D2C98405100EAF57E /* RankViewModel.swift in Sources */,
+				D63D840E2C82DE3800FAAF30 /* Login.swift in Sources */,
+				D6BEDA852C999B4600EAF57E /* FinishQuiz.swift in Sources */,
+				D63D84102C82DE9100FAAF30 /* LoginViewModel.swift in Sources */,
+				D63D84122C82EA3D00FAAF30 /* CategoryService.swift in Sources */,
+				D63D84082C82D04D00FAAF30 /* RegisterViewModel.swift in Sources */,
+				D6C3CF432C660A9600B2143E /* authUser.swift in Sources */,
+				D63D84062C82D00400FAAF30 /* UserService.swift in Sources */,
+				D63D841D2C82F99300FAAF30 /* LoginService.swift in Sources */,
+				D63D840C2C82D09900FAAF30 /* Register.swift in Sources */,
+				D6B54FD32C86AE51007C24C3 /* SoalViewModel.swift in Sources */,
+				D61C22872C635E29006CAAD0 /* ContentView.swift in Sources */,
+				D6B54FD52C86AE62007C24C3 /* SoalService.swift in Sources */,
+				D606CAE72CA95E7C00236C00 /* listRank.swift in Sources */,
+				D63D84142C82EACF00FAAF30 /* CategoryViewModel.swift in Sources */,
+				D60D94512C6E07D600F2803B /* Boarding.swift in Sources */,
+				D61C22852C635E29006CAAD0 /* skripsiApp.swift in Sources */,
+				D6BEDA7B2C98404100EAF57E /* RankService.swift in Sources */,
+				D63D83FF2C82AD6A00FAAF30 /* Dasboard.swift in Sources */,
+				D6BEDA7F2C9959A700EAF57E /* UserViewModel.swift in Sources */,
+				D63D84162C82EAE300FAAF30 /* Category.swift in Sources */,
+				D6BEDA812C9959BF00EAF57E /* UserDetail.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D61C228D2C635E2B006CAAD0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D61C22962C635E2B006CAAD0 /* skripsiTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D61C22972C635E2B006CAAD0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D61C22A22C635E2B006CAAD0 /* skripsiUITestsLaunchTests.swift in Sources */,
+				D61C22A02C635E2B006CAAD0 /* skripsiUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D61C22932C635E2B006CAAD0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D61C22802C635E29006CAAD0 /* skripsi */;
+			targetProxy = D61C22922C635E2B006CAAD0 /* PBXContainerItemProxy */;
+		};
+		D61C229D2C635E2B006CAAD0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D61C22802C635E29006CAAD0 /* skripsi */;
+			targetProxy = D61C229C2C635E2B006CAAD0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		D61C22A32C635E2B006CAAD0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D61C22A42C635E2B006CAAD0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D61C22A62C635E2B006CAAD0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"skripsi/Preview Content\"";
+				DEVELOPMENT_TEAM = UH9D965HU9;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.laode.skripsi;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D61C22A72C635E2B006CAAD0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"skripsi/Preview Content\"";
+				DEVELOPMENT_TEAM = UH9D965HU9;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.laode.skripsi;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		D61C22A92C635E2B006CAAD0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.laode.skripsiTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/skripsi.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/skripsi";
+			};
+			name = Debug;
+		};
+		D61C22AA2C635E2B006CAAD0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.laode.skripsiTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/skripsi.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/skripsi";
+			};
+			name = Release;
+		};
+		D61C22AC2C635E2B006CAAD0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.laode.skripsiUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = skripsi;
+			};
+			name = Debug;
+		};
+		D61C22AD2C635E2B006CAAD0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.laode.skripsiUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = skripsi;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D61C227C2C635E29006CAAD0 /* Build configuration list for PBXProject "skripsi" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D61C22A32C635E2B006CAAD0 /* Debug */,
+				D61C22A42C635E2B006CAAD0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D61C22A52C635E2B006CAAD0 /* Build configuration list for PBXNativeTarget "skripsi" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D61C22A62C635E2B006CAAD0 /* Debug */,
+				D61C22A72C635E2B006CAAD0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D61C22A82C635E2B006CAAD0 /* Build configuration list for PBXNativeTarget "skripsiTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D61C22A92C635E2B006CAAD0 /* Debug */,
+				D61C22AA2C635E2B006CAAD0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D61C22AB2C635E2B006CAAD0 /* Build configuration list for PBXNativeTarget "skripsiUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D61C22AC2C635E2B006CAAD0 /* Debug */,
+				D61C22AD2C635E2B006CAAD0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D61C22792C635E29006CAAD0 /* Project object */;
+}
